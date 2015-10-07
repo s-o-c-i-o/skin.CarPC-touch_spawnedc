@@ -38,6 +38,7 @@
 
 	<include file="includes/home-screen/home-btn-programs.xml" />
 	<include file="includes/home-screen/home-btn-videos.xml" />
+	<include file="includes/home-screen/home-btn-shutdown.xml" />
 
 
 	<variable name="BannerThumb">

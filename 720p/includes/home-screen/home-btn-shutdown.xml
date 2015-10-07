@@ -1,0 +1,22 @@
+<includes>
+	<include name="HomeBtnShutdown">
+		<control type="group">
+			<posx>540r</posx>
+			<posy>320</posy>
+
+			<control type="button" id="btnHomeShutdown">
+				<include>TemplateButtonHomeMenuItem</include>
+				<description>Shutdown Button</description>
+				<label>Shutdown</label>
+				<onclick>RunScript("special://skin/scripts/system_poweroff.py")</onclick>
+				<textoffsetx>120</textoffsetx>
+			</control>
+
+			<control type="image">
+				<include>IconShutdown</include>
+				<centertop>60</centertop>
+				<left>20</left>
+			</control>
+		</control>
+	</include>
+</includes>

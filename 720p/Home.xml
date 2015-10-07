@@ -30,6 +30,7 @@
 
 			<include>HomeBtnMusic</include>
 			<include>HomeBtnPrograms</include>
+			<include>HomeBtnShutdown</include>
 		</control>
 
 		<control type="group" id="grpBottomBar">

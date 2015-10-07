@@ -28,4 +28,9 @@
 		<include>IconTemplate</include>
 		<texture>icon_postcode.png</texture>
 	</include>
+
+	<include name="IconShutdown">
+		<include>IconTemplate</include>
+		<texture>icon_shutdown.png</texture>
+	</include>
 </includes>
