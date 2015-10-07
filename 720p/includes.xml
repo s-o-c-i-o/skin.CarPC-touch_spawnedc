@@ -1,6 +1,6 @@
 <includes>
 	<constant name="ScreenWidth">1280</constant>
-	<constant name="ScreenHeight">800</constant>
+	<constant name="ScreenHeight">720</constant>
 	<constant name="HeaderHeight">80</constant>
 	<constant name="FooterHeight">80</constant>
 	<constant name="HomeButtonHeight">120</constant>
