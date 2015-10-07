@@ -1,0 +1,22 @@
+<includes>
+	<include name="HomeBtnPostcode">
+		<control type="group">
+			<posx>0</posx>
+			<posy>320</posy>
+
+			<control type="button" id="btnHomePostcode">
+				<include>TemplateButtonHomeMenuItem</include>
+				<description>Navit Button</description>
+				<label>Postcode</label>
+				<onclick>RunScript("plugin.program.postcode")</onclick>
+				<textoffsetx>120</textoffsetx>
+			</control>
+
+			<control type="image">
+				<include>IconPostcode</include>
+				<centertop>60</centertop>
+				<left>20</left>
+			</control>
+		</control>
+	</include>
+</includes>

@@ -1,0 +1,52 @@
+<window id="0">
+	<defaultcontrol always="true">4250</defaultcontrol>
+	<controls>
+		<include>CommonBackground</include>
+
+		<control type="videowindow">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>ScreenWidth</width>
+			<height>ScreenHeight</height>
+			<visible>Player.HasVideo</visible>
+		</control>
+
+		<control type="group" id="grpTopBar">
+			<include>CommonTopBar</include>
+			<include>KodiLogo</include>
+			<include>Time</include>
+			<include>Weather</include>
+		</control>
+
+		<control type="group" id="grpHomeControls">
+			<include>Window_OpenClose_Animation_Zoom</include>
+			<left>40</left>
+			<right>40</right>
+			<posy>120</posy>
+
+			<include>HomeBtnVideos</include>
+			<include>HomeBtnNavigation</include>
+			<include>HomeBtnPostcode</include>
+
+			<include>HomeBtnMusic</include>
+			<include>HomeBtnPrograms</include>
+		</control>
+
+		<control type="group" id="grpBottomBar">
+			<include>Window_OpenClose_Animation_Slide_Up</include>
+			<include>CommonBottomBar</include>
+			<include>BehindDialogFadeOut</include>
+
+			<bottom>0</bottom>
+			<height>FooterHeight</height>
+			<left>0</left>
+			<width>ScreenWidth</width>
+
+			<control type="button" id="btnSettings">
+				<include>SettingsButton</include>
+				<posx>72r</posx>
+				<posy>8</posy>
+			</control>
+		</control>
+	</controls>
+</window>

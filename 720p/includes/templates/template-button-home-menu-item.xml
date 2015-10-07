@@ -1,0 +1,13 @@
+<includes>
+	<include name="TemplateButtonHomeMenuItem">
+		<font>font40_title</font>
+		<height>HomeButtonHeight</height>
+		<posx>0</posx>
+		<posy>0</posy>
+		<shadowcolor>black</shadowcolor>
+		<textcolor>text-icon</textcolor>
+		<texturefocus colordiffuse="primary-dark">bg-common-white.png</texturefocus>
+		<texturenofocus colordiffuse="primary">bg-common-white.png</texturenofocus>
+		<width>HomeButtonWidth</width>
+	</include>
+</includes>

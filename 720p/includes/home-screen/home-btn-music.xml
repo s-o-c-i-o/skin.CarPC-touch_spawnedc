@@ -1,0 +1,22 @@
+<includes>
+	<include name="HomeBtnMusic">
+		<control type="group">
+			<posx>540r</posx>
+			<posy>0</posy>
+
+			<control type="button" id="btnHomeMusic">
+				<include>TemplateButtonHomeMenuItem</include>
+				<description>Music Button</description>
+				<label>Music</label>
+				<onclick>ActivateWindow(Music)</onclick>
+				<textoffsetx>120</textoffsetx>
+			</control>
+
+			<control type="image">
+				<include>IconMusic</include>
+				<centertop>60</centertop>
+				<left>20</left>
+			</control>
+		</control>
+	</include>
+</includes>

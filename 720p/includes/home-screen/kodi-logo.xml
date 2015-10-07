@@ -1,0 +1,22 @@
+<includes>
+	<!-- KODI Logo with fullscreen action when pressed -->
+	<include name="KodiLogo">
+		<control type="group">
+			<include>VisibleFadeEffect</include>
+			<include>Window_OpenClose_Animation_Slide_Down</include>
+			<posx>0</posx>
+			<posy>0</posy>
+			<visible>Window.IsVisible(Home)</visible>
+
+			<control type="button">
+				<height>80</height>
+				<onclick>ActivateWindow(1115)</onclick>
+				<posx>10</posx>
+				<posy>0</posy>
+				<texturefocus>kodi-logo.png</texturefocus>
+				<texturenofocus>kodi-logo.png</texturenofocus>
+				<width>185</width>
+			</control>
+		</control>
+	</include>
+</includes>

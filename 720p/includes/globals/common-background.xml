@@ -1,0 +1,26 @@
+<includes>
+	<include name="CommonBackground">
+		<control type="image">
+			<aspectratio>scale</aspectratio>
+			<description>Normal Default Background Image</description>
+			<height>ScreenHeight</height>
+			<include>VisibleFadeEffect</include>
+			<left>0</left>
+			<texture colordiffuse="primary-light">bg-common-white.png</texture>
+			<top>0</top>
+			<visible>![Skin.HasSetting(UseCustomBackground) + !IsEmpty(Skin.String(CustomBackgroundPath))]</visible>
+			<width>ScreenWidth</width>
+		</control>
+		<control type="image">
+			<aspectratio>scale</aspectratio>
+			<description>User Set Background Image</description>
+			<height>ScreenHeight</height>
+			<include>VisibleFadeEffect</include>
+			<left>0</left>
+			<texture>$INFO[Skin.String(CustomBackgroundPath)]</texture>
+			<top>0</top>
+			<visible>Skin.HasSetting(UseCustomBackground) + !IsEmpty(Skin.String(CustomBackgroundPath))</visible>
+			<width>ScreenWidth</width>
+		</control>
+	</include>
+</includes>

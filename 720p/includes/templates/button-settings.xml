@@ -1,0 +1,9 @@
+<includes>
+	<include name="SettingsButton">
+		<include>TemplateButtonSmall</include>
+		<description>Settings Button</description>
+		<texturenofocus>icon_settings.png</texturenofocus>
+		<texturefocus colordiffuse="accent">icon_settings.png</texturefocus>
+		<onclick>ActivateWindow(Settings)</onclick>
+	</include>
+</includes>

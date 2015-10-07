@@ -1,0 +1,22 @@
+<includes>
+	<include name="HomeBtnVideos">
+		<control type="group">
+			<posx>0</posx>
+			<posy>0</posy>
+
+			<control type="button" id="btnHomeVideos">
+				<include>TemplateButtonHomeMenuItem</include>
+				<description>Video Button</description>
+				<label>Videos</label>
+				<onclick>ActivateWindow(Videos)</onclick>
+				<textoffsetx>120</textoffsetx>
+			</control>
+
+			<control type="image">
+				<include>IconVideo</include>
+				<centertop>60</centertop>
+				<left>20</left>
+			</control>
+		</control>
+	</include>
+</includes>

@@ -1,0 +1,22 @@
+<includes>
+	<include name="HomeBtnNavigation">
+		<control type="group">
+			<posx>0</posx>
+			<posy>160</posy>
+
+			<control type="button" id="btnHomeNavigation">
+				<include>TemplateButtonHomeMenuItem</include>
+				<description>Navit Button</description>
+				<label>Navigation</label>
+				<onclick>RunScript("plugin.program.navigation")</onclick>
+				<textoffsetx>120</textoffsetx>
+			</control>
+
+			<control type="image">
+				<include>IconNavigation</include>
+				<centertop>60</centertop>
+				<left>20</left>
+			</control>
+		</control>
+	</include>
+</includes>

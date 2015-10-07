@@ -1,0 +1,20 @@
+<includes>
+	<include name="Time">
+		<control type="label">
+			<align>center</align>
+			<aligny>center</aligny>
+			<description>time label</description>
+			<font>font50_title</font>
+			<height>HeaderHeight</height>
+			<include>VisibleFadeEffect</include>
+			<include>Window_OpenClose_Animation_Slide_Down</include>
+			<label>$INFO[System.Time]</label>
+			<posx>0</posx>
+			<posy>0</posy>
+			<shadowcolor>black</shadowcolor>
+			<textcolor>white</textcolor>
+			<visible>!Window.IsVisible(ExtendedProgressDialog) + !Skin.HasSetting(HideHomeButtonTime)</visible>
+			<width>ScreenWidth</width>
+		</control>
+	</include>
+</includes>

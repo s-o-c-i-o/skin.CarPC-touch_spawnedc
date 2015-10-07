@@ -1,0 +1,12 @@
+<includes>
+	<include name="CommonTopBar">
+		<control type="image">
+			<height>HeaderHeight</height>
+			<include>Window_OpenClose_Animation_Slide_Down</include>
+			<posx>0</posx>
+			<posy>0</posy>
+			<texture colordiffuse="primary-dark">bg-common-white.png</texture>
+			<width>ScreenWidth</width>
+		</control>
+	</include>
+</includes>

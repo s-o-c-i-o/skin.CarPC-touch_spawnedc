@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="skin.CarPC-touch_spawnedc" name="CarPC-touch by spawnedc" version="0.0.1" provider-name="spawnedc">
+	<requires>
+		<import addon="xbmc.gui" version="5.3.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" effectslowdown="0.76" debugging="true">
+		<res width="1280" height="800" aspect="16:10" folder="720p" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">CarPC touch screen skin by spawnedc</summary>
+		<description lang="en">Minimal version of Dorels CarPC-touch_carbon skin</description>
+		<disclaimer lang="en">Use this skin with a touch screen or a mouse(the pointer is not being shown)</disclaimer>
+		<language>English</language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum></forum>
+		<website></website>
+		<email>spawnedc@gmail.com</email>
+		<source></source>
+	</extension>
+</addon>

@@ -1,0 +1,6 @@
+<includes>
+	<include name="TemplateButtonSmall">
+		<height>64</height>
+		<width>64</width>
+	</include>
+</includes>

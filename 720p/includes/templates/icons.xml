@@ -1,0 +1,31 @@
+<includes>
+	<include name="IconTemplate">
+		<width>72</width>
+		<height>72</height>
+	</include>
+
+	<include name="IconNavigation">
+		<include>IconTemplate</include>
+		<texture>icon_navigation.png</texture>
+	</include>
+
+	<include name="IconVideo">
+		<include>IconTemplate</include>
+		<texture>icon_video.png</texture>
+	</include>
+
+	<include name="IconPrograms">
+		<include>IconTemplate</include>
+		<texture>icon_programs.png</texture>
+	</include>
+
+	<include name="IconMusic">
+		<include>IconTemplate</include>
+		<texture>icon_music.png</texture>
+	</include>
+
+	<include name="IconPostcode">
+		<include>IconTemplate</include>
+		<texture>icon_postcode.png</texture>
+	</include>
+</includes>

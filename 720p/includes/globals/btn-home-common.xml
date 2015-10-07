@@ -1,0 +1,22 @@
+<includes>
+	<include name="HomeButtonCommons">
+		<control type="group">
+			<include>Window_OpenClose_Animation_Slide_Down</include>
+			<posx>0</posx>
+			<posy>0</posy>
+			<visible>!Window.IsActive(PlayerControls)</visible>
+			<include>VisibleFadeEffect</include>
+			<control type="button">
+				<description>Home Button</description>
+				<font>-</font>
+				<height>72</height>
+				<onclick>ActivateWindow(Home)</onclick>
+				<posx>8</posx>
+				<posy>8</posy>
+				<texturefocus colordiffuse="accent">icon_home.png</texturefocus>
+				<texturenofocus>icon_home.png</texturenofocus>
+				<width>72</width>
+			</control>
+		</control>
+	</include>
+</includes>

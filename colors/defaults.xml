@@ -1,0 +1,10 @@
+<colors>
+	<color name="primary">FF607D8B</color>
+	<color name="primary-dark">FF455A64</color>
+	<color name="primary-light">FFCFD8DC</color>
+	<color name="text-icon">FFFFFFFF</color>
+	<color name="text-primary">FF212121</color>
+	<color name="text-secondary">FF727272</color>
+	<color name="divider">FFB6B6B6</color>
+	<color name="accent">FFFF9800</color>
+</colors>

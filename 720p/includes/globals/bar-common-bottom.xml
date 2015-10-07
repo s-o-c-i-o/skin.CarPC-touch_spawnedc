@@ -1,0 +1,12 @@
+<includes>
+	<include name="CommonBottomBar">
+		<control type="image">
+			<bottom>0</bottom>
+			<height>FooterHeight</height>
+			<include>Window_OpenClose_Animation_Slide_Up</include>
+			<posx>0</posx>
+			<texture colordiffuse="primary-dark">bg-common-white.png</texture>
+			<width>ScreenWidth</width>
+		</control>
+	</include>
+</includes>

@@ -1,0 +1,22 @@
+<includes>
+	<include name="HomeBtnPrograms">
+		<control type="group">
+			<posx>540r</posx>
+			<posy>160</posy>
+
+			<control type="button" id="btnHomePrograms">
+				<include>TemplateButtonHomeMenuItem</include>
+				<description>Programs Button</description>
+				<label>Programs</label>
+				<onclick>ActivateWindow(Programs)</onclick>
+				<textoffsetx>120</textoffsetx>
+			</control>
+
+			<control type="image">
+				<include>IconPrograms</include>
+				<centertop>60</centertop>
+				<left>20</left>
+			</control>
+		</control>
+	</include>
+</includes>
