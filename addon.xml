@@ -9,7 +9,7 @@
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">CarPC touch screen skin by spawnedc</summary>
 		<description lang="en">Minimal version of Dorels CarPC-touch_carbon skin</description>
-		<disclaimer lang="en">Use this skin with a touch screen or a mouse(the pointer is not being shown)</disclaimer>
+		<disclaimer lang="en">Use this skin with a touch screen or a mouse</disclaimer>
 		<language>English</language>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
