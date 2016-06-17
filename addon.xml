@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="skin.CarPC-touch_spawnedc" name="CarPC-touch by spawnedc" version="0.0.1" provider-name="spawnedc">
 	<requires>
-		<import addon="xbmc.gui" version="5.3.0"/>
+		<import addon="xbmc.gui" version="5.10.0"/>
 	</requires>
 	<extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" effectslowdown="0.76" debugging="true">
 		<res width="1280" height="720" aspect="16:9" folder="720p" />
